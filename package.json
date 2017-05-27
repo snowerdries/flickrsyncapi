@@ -1,6 +1,9 @@
 {
   "name": "flickrsyncapi",
   "version": "1.0.0",
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,5 +16,9 @@
     "bluebird": "^3.5.0",
     "express": "^4.15.3",
     "flickr-oauth-and-upload": "^0.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-plugin-node": "^4.2.2"
   }
 }
