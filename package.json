@@ -4,10 +4,13 @@
   "engines": {
     "node": ">=4.0.0"
   },
+  "files": [
+    "index.js"
+  ],
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "./node_modules/.bin/mocha --reporter spec",
     "start": "node index.js"
   },
   "author": "",
@@ -18,7 +21,10 @@
     "flickr-oauth-and-upload": "^0.8.0"
   },
   "devDependencies": {
+    "chai": "^4.0.0",
     "eslint": "^3.19.0",
-    "eslint-plugin-node": "^4.2.2"
+    "eslint-plugin-node": "^4.2.2",
+    "mocha": "^3.4.2",
+    "sinon": "^2.3.2"
   }
 }

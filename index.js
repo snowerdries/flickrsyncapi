@@ -197,3 +197,5 @@ var getFlickrResponse = function(method, data) {
 app.listen(3000, function () {
     console.warn('Example app listening on port 3000!');
 });
+
+module.exports = { getPhotosToDownload };
